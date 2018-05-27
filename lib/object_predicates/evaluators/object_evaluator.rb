@@ -1,6 +1,6 @@
 require_relative './evaluator'
-require_relative './object_eq_condition_evaluator'
-require_relative './object_neq_condition_evaluator'
+require_relative './object_evaluator/object_eq_condition_evaluator'
+require_relative './object_evaluator/object_neq_condition_evaluator'
 
 module ObjectPredicates
   class ObjectEvaluator < Evaluator

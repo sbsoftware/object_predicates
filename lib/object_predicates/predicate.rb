@@ -1,7 +1,7 @@
-require_relative './eq_condition'
-require_relative './neq_condition'
-require_relative './object_evaluator'
-require_relative './active_record_evaluator'
+require_relative './conditions/eq_condition'
+require_relative './conditions/neq_condition'
+require_relative './evaluators/object_evaluator'
+require_relative './evaluators/active_record_evaluator'
 
 module ObjectPredicates
   class Predicate
