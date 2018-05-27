@@ -1,6 +1,6 @@
 require_relative './attribute_value_condition'
 
-module Predicates
+module ObjectPredicates
   class EqCondition < AttributeValueCondition
   end
 end

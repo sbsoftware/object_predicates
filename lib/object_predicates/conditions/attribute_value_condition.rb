@@ -1,4 +1,4 @@
-module Predicates
+module ObjectPredicates
   class AttributeValueCondition
     attr_reader :attr_name, :value
 

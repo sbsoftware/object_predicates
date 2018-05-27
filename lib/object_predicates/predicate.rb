@@ -3,7 +3,7 @@ require_relative './neq_condition'
 require_relative './object_evaluator'
 require_relative './active_record_evaluator'
 
-module Predicates
+module ObjectPredicates
   class Predicate
     attr_reader :conditions
 

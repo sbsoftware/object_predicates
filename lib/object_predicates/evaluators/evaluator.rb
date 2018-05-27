@@ -1,4 +1,4 @@
-module Predicates
+module ObjectPredicates
   class Evaluator
     attr_reader :predicate
 
@@ -14,7 +14,7 @@ module Predicates
 
     def condition_evaluator(condition)
       evaluator_type = self.class.name.match(/(\w*)Evaluator/)[1]
-      klass = "Predicates::#{evaluator_type}#{condition.class.name.split('::').last}Evaluator".constantize
+      klass = "ObjectPredicates::#{evaluator_type}#{condition.class.name.split('::').last}Evaluator".constantize
       klass.new(condition)
     end
   end
