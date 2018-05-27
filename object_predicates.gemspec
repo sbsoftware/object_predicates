@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.email = 'stefan@sbsoftware.de'
   s.license = 'MIT'
 
-  s.required_ruby_version = '>= 2.4'
+  s.required_ruby_version = '>= 2.5'
 end
